@@ -1,0 +1,9 @@
+.markdown {
+  margin-top:2rem;
+  height: 60vh;
+  overflow: auto;
+  box-shadow: 0px 0px 10px 0px rgba(59,64,156,1);
+  :focus{
+    box-shadow: 0px 0px 10px 0px rgba(59,64,156,1);
+  }
+}

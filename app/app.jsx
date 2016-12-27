@@ -12,7 +12,6 @@ require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
   <div>
-    <p>Boilerplate 3 project</p>
     <Main/>
   </div>,
   document.getElementById('app')

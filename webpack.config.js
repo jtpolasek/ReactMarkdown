@@ -28,7 +28,8 @@ var path = require('path');
        applicationStyles: 'app/styles/app.scss',
        Main: 'app/components/Main.jsx',
        Input: 'app/components/Input.jsx',
-       Output: 'app/components/Output.jsx'
+       Output: 'app/components/Output.jsx',
+       Nav: 'app/components/Nav.jsx'
      },
      extensions: ['', '.js', '.jsx']
    },

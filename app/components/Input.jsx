@@ -1,9 +1,12 @@
 var React = require ('react');
 
 var Input = React.createClass({
+  handleChange: function(event) {
+	   this.props.input(event.target.value)
+	},
   render: function (){
     return(
-      <h1>Input component</h1>
+          <textarea className="markdown" placeholder="## Enter Text Here" onChange={this.handleChange}></textarea>
     )
   }
 })

@@ -2,8 +2,11 @@ var React = require ('react');
 
 var Output = React.createClass({
   render: function (){
+    var innerHtml = this.props.parsedHtml;
+    console.log(innerHtml);
     return(
-      <h1>Output component</h1>
+        <div dangerouslySetInnerHTML={innerHtml}>
+        </div>
     )
   }
 })
